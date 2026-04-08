@@ -145,6 +145,11 @@ function CalendarGrid({
                   </span>
                 </span>
               )}
+              {isCurrentDay && (
+                <span className="pointer-events-none absolute -top-6 left-1/2 z-40 hidden -translate-x-1/2 rounded bg-slate-700 px-2 py-0.5 text-[10px] font-medium text-white shadow-sm group-hover:block group-focus-visible:block">
+                  Today
+                </span>
+              )}
             </button>
           )
         })}
