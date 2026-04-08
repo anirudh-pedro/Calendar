@@ -21,7 +21,7 @@ function CalendarGrid({
   const yearOptions = Array.from({ length: 31 }, (_, index) => activeYear - 15 + index)
 
   return (
-    <div className="w-full md:w-[61%] md:pl-1">
+    <div className="order-1 w-full md:order-2 md:w-[61%] md:pl-1">
       <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
         <div>
           <h2 className="text-sm font-medium text-slate-600">Calendar</h2>

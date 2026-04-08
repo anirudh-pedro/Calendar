@@ -9,7 +9,7 @@ function NotesPanel({
   linesCount = 17,
 }) {
   return (
-    <aside className="w-full md:w-[39%] md:pr-3">
+    <aside className="order-2 w-full md:order-1 md:w-[39%] md:pr-3">
       <h2 className="mb-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-500">Notes</h2>
       <div className="relative mt-1 overflow-hidden">
         <div className="space-y-0 pt-0.5">

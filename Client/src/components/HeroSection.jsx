@@ -13,7 +13,7 @@ function HeroSection({ heroSrc, isLoading, onImageLoad, monthLabel, yearLabel })
         onError={onImageLoad}
       />
       <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/15 to-transparent" />
-      <div className="absolute -bottom-4 left-0 right-0 z-[1] h-28 bg-white [clip-path:polygon(0_48%,34%_100%,100%_74%,100%_100%,0_100%)]" />
+      <div className="absolute -bottom-4 left-0 right-0 z-1 h-28 bg-white [clip-path:polygon(0_48%,34%_100%,100%_74%,100%_100%,0_100%)]" />
       <div className="absolute bottom-10 left-4 z-20 flex flex-col gap-1 leading-none sm:bottom-12 sm:left-6 sm:gap-2">
         <p className="text-3xl font-semibold tracking-wider text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.35)] sm:text-4xl">
           {monthLabel}
